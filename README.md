@@ -1,11 +1,13 @@
 # Twitter Trends
 
-Welcome! Before you begin, I recommend you read the [report](some link) that accompanies this tutorial.
+Welcome! Before you begin, I recommend you read the [Report](https://github.com/jesmith14/TwitterTrends/blob/master/Report.pdf) that accompanies this study.
 
-In this repository, you have all of the tools to attempt to reverse engineer Twitter's trending algorithm.
+In this repository/tutorial, you are given many tools to help you attempt to reverse engineer Twitter's trending algorithm.
+
+*Note: Please use this information responsibly. This study was motivated by recent malicious attacks on Twitter's trending algorithm, in an attempt to help Twitter users understand what creates Twitter trends. This study is **not** intended to aide in any effort to exploit or attack Twitter trends.*
 
 ### Table of Contents
-1. How to create an AWS DynamoDB and connect to it
+1. [How to create an AWS DynamoDB and connect to it](#1-how-to-create-an-aws-dynamodb-and-connect-to-it)
 2. How to create a Twitter Developer account and connect to it
 3. How to stream 1% of all tweets world wide and store them in your DynamoDB
 4. How to collect Twitter trend data from the Twitter API every 5 minutes and store it in your DynamoDB

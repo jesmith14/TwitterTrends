@@ -8,13 +8,13 @@ In this repository/tutorial, you are given many tools to help you attempt to rev
 
 ### Table of Contents
 1. [How to create an AWS DynamoDB and connect to it](#1-how-to-create-an-aws-dynamodb-and-connect-to-it)
-2. How to create a Twitter Developer account and connect to it
-3. How to stream 1% of all tweets world wide and store them in your DynamoDB
-4. How to collect Twitter trend data from the Twitter API every 5 minutes and store it in your DynamoDB
-5. How to convert DynamoDB data into a csv
-6. How to clean and work with Twitter data
-7. How to calculate features and metrics that contribute to topic trending
-8. How to train a classifier to predict if a hashtag will trend on Twitter
+2. [How to create a Twitter Developer account and connect to it](#2-how-to-create-a-twitter-developer-account-and-connect-to-it)
+3. [How to stream 1% of all tweets world wide and store them in your DynamoDB](#3-how-to-stream-1-of-all-tweets-world-wide-and-store-them-in-your-dynamodb)
+4. [How to collect Twitter trend data from the Twitter API every 5 minutes and store it in your DynamoDB](#4-how-to-collect-twitter-trend-data-from-the-twitter-api-every-5-minutes-and-store-it-in-your-dynamodb)
+5. [How to convert DynamoDB data into a csv](#5-how-to-convert-dynamodb-data-into-a-csv)
+6. [How to clean and work with Twitter data](#6-how-to-clean-and-work-with-twitter-data)
+7. [How to calculate features and metrics that contribute to topic trending](#how-to-calculate-features-and-metrics-that-contribute-to-topic-trending)
+8. [How to train a classifier to predict if a hashtag will trend on Twitter](#how-to-train-a-classifier-to-predict-if-a-hashtag-will-trend-on-twitter)
 
 If you have any questions or concerns about this study, please reach out! Jessie.Smith-1@colorado.edu
 
@@ -74,12 +74,14 @@ Alternatively, you can use the csvs that I created for the study, saved in this 
 - [trends.csv](some link here)
 
 ## 6. How to clean and work with Twitter data
-Refer to section #2 of the [Tutorial.ipynb](some link here)
+Refer to section #2 of the [Tutorial.ipynb](https://github.com/jesmith14/TwitterTrends/blob/master/Tutorial.ipynb)
 
 ## 7. How to calculate features and metrics that contribute to topic trending
-Refer to section #2 the [Tutorial.ipynb](some link here)
+Refer to the last part of section #2 of the [Tutorial.ipynb](https://github.com/jesmith14/TwitterTrends/blob/master/Tutorial.ipynb)
 
 ## 8. How to train a classifier to predict if a hashtag will trend on Twitter
-Refer to section #3 the [Tutorial.ipynb](some link here)
+Refer to section #3 the [Tutorial.ipynb](https://github.com/jesmith14/TwitterTrends/blob/master/Tutorial.ipynb)
+
+Congratulations! If you made it this far, you reverse engineered the Twitter trending algorithm (for hashtags) with an accuracy of about 93%! Together, we can work to make black boxes a little bit less opaque, and a little bit more *transparent*.
 
 If you have any questions / concerns / comments about this tutorial or would like to add to it, please reach out! Jessie.Smith-1@colorado.edu

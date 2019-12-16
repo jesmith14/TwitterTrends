@@ -71,9 +71,7 @@ For this report, I ran the scripts above intermittently for five days. In order 
 
 If you would like to use these csvs in the [Tutorial.ipynb](some link here) notebook, you will need to save them as 'tweets.csv' and 'trends.csv'
 
-Alternatively, you can use the csvs that I created for the study, saved in this GitHub repo with the same name as above.
-- [tweets.csv](some link here)
-- [trends.csv](some link here)
+Alternatively, you can use the csvs that I created for the study, [tweets.csv](https://github.com/jesmith14/TwitterTrends/blob/master/trends.csv) is saved in this GitHub repo. However, if you would like a copy of my version of the "trends.csv" file, you will need to email me and I will send it to you, as it exceeds GitHubs 25MB file upload limit.
 
 ## 6. How to clean and work with Twitter data
 Refer to section #2 of the [Tutorial.ipynb](https://github.com/jesmith14/TwitterTrends/blob/master/Tutorial.ipynb)

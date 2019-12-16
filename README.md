@@ -69,7 +69,7 @@ You will know the script is running correctly if it prints out a time stamp for 
 
 For this report, I ran the scripts above intermittently for five days. In order to gather all of the collected data from the DynamoDBs, I used the library [DynamoDBtoCSV](https://github.com/edasque/DynamoDBtoCSV). This allowed me to get my total collection of trend arrays and streamed tweets over the course of the five days in two csv files.
 
-If you would like to use these csvs in the [Tutorial.ipynb](some link here) notebook, you will need to save them as 'tweets.csv' and 'trends.csv'
+If you would like to use these csvs in the [Tutorial.ipynb](https://github.com/jesmith14/TwitterTrends/blob/master/Tutorial.ipynb) notebook, you will need to save them as 'tweets.csv' and 'trends.csv'
 
 Alternatively, you can use the csvs that I created for the study, [tweets.csv](https://github.com/jesmith14/TwitterTrends/blob/master/trends.csv) is saved in this GitHub repo. However, if you would like a copy of my version of the "trends.csv" file, you will need to email me and I will send it to you, as it exceeds GitHubs 25MB file upload limit.
 

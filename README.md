@@ -44,7 +44,7 @@ To begin collecting data, you will need to run the [scrape_twitter_data.py](http
 To run the script to collect tweets from Tweepy's streaming API, you wil likely need to import some libraries. All libraries can be installed using the command: `pip install [LIBRARY NAME]`
 
 Run this command in your terminal to begin collecting streamed tweets and storing them in your TweetStream DynamoDB:
-`stream_twitter_data.py Tweets'`
+`stream_twitter_data.py Tweets`
 
 You will know the script is running correctly if it prints out a time stamp and the first few characters of every tweet. Right now, the code is written to collect only 1/10 of all Tweets from the 1% sample that Tweepy's stream provides. If you would like to collect more or less than this, modify line 73 `if self.tweet_count % 10 == 0:` to filter for your preferred number of tweets.
 
@@ -57,7 +57,7 @@ To collect Twitter trend data, you will need to make a call to the Twitter API e
 To run the script to collect trends, you wil likely need to import some libraries. All libraries can be installed using the command: `pip install [LIBRARY NAME]`
 
 Run this command in your terminal to begin collecting trends and storing them in your trendTable DynamoDB:
-`stream_twitter_data.py Trends'`
+`stream_twitter_data.py Trends`
 
 You will know the script is running correctly if it prints out a time stamp for every Trend array collected. Right now, the code is written to run this command every 5 minutes. If you would like to collect more or less than this, modify line 91 `threading.Timer(300.0, gatherTrends).start()` to run it more or less than every 300 seconds.
 
